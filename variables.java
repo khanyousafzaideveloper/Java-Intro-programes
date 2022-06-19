@@ -33,6 +33,10 @@ public class variables {
      int mynum = 23;
      mynum = 98;
      System.out.println(mynum);
+    
+     // decalring multiple variables
+    int a = 23, b = 12, c=354;
+    System.out.println(a + b + c);
 
     }
   }
