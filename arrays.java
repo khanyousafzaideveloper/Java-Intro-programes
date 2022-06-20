@@ -29,6 +29,15 @@ public class arrays {
         {
             System.out.println(i);
         }
+        ////
+        System.out.println("__________________________________________");
+        
+        int[][] some_numbers = { {10, 20, 30, 40}, {15, 25, 35} };
+        for (int i = 0; i < some_numbers.length; ++i) {
+            for(int j = 0; j < some_numbers[i].length; ++j) {
+                System.out.println(some_numbers[i][j]);
+            }
+        }
     }
     
 }
