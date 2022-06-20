@@ -15,6 +15,11 @@ public class methods {
         System.out.println("Hi, my name is " + name + "and my age is " + age);
     }
 
+    // Return values
+    static int add(int a, int b)
+    {
+        return a+b;
+    }
 
     public static void main(String[] argv){ 
     
@@ -26,6 +31,8 @@ public class methods {
     first_name("Ahmad");
     name_age("Hamza", 54);
     name_age("Asad", 32);
+    System.out.println(add(32,65));
+    System.out.println(add(54,53));
 
     }
 
