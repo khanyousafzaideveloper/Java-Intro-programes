@@ -1,8 +1,9 @@
 class outer_class
 {
     int x = 5; 
-    class inner_class{
-        int y = 10;
+    class inner_class{   // an inner class can also be private or protected
+        int y = 10;      // An inner class can also be static, 
+                        // which means that you can access it without creating an object of the outer class   
     }
 
 }    
