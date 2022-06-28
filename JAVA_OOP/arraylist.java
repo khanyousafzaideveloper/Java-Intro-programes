@@ -39,6 +39,19 @@ System.out.println("****************************************************");
         for(String x : cars)
         System.out.println(x);
 
+System.out.println("****************************************************");
+
+        ArrayList<Integer> some_nums = new ArrayList<Integer>();
+        some_nums.add(23);
+        some_nums.add(5);
+        some_nums.add(65);
+        some_nums.add(27);
+        some_nums.add(78);
+
+        for(int w : some_nums)
+        System.out.println(w);
+
+
 }
       
 }
