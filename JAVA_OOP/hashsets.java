@@ -1,4 +1,6 @@
 import java.util.HashSet;
+
+import javax.swing.plaf.synth.SynthLookAndFeel;
  
 // A HashSet is a collection of items where every item is unique.
  
@@ -25,9 +27,15 @@ public class hashsets {
 
         //To remove all items, use the clear() method:
 
+        System.out.println(cars.size());
+
         cars.clear();
 
         System.out.println(cars);
+
+        System.out.println(cars.size());
+
+
     }
     
 }
