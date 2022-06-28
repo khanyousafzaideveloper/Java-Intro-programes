@@ -1,4 +1,5 @@
-import java.util.ArrayList;;
+import java.util.ArrayList; 
+import java.util.Collections;
 
 public class arraylist {
     public static void main(String[] args)
@@ -51,7 +52,12 @@ System.out.println("****************************************************");
         for(int w : some_nums)
         System.out.println(w);
 
+        System.out.println("*************In*sorted*form***************************************");
 
+    
+        Collections.sort(some_nums);
+        for(int e: some_nums)
+        System.out.println(e);
 }
       
 }
