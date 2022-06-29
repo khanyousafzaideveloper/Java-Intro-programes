@@ -6,5 +6,10 @@ public class wrapperClass{
       System.out.println(myInt);
       System.out.println(myDouble);
       System.out.println(myChar);
+
+
+      Integer newInt = 100;
+      String myString = newInt.toString();
+      System.out.println(myString.length());
     }
   }
