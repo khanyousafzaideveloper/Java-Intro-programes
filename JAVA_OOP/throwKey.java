@@ -17,3 +17,7 @@ public class throwKey{
 
     }
   }
+
+  
+//The throw statement is used together with an exception type. There are many exception types available in Java:
+// ArithmeticException, FileNotFoundException, ArrayIndexOutOfBoundsException, SecurityException, etc:
