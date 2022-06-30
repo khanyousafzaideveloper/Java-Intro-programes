@@ -12,3 +12,5 @@ public static void main(String args[]){
      }  
 }
 
+// public void run(): is used to perform action for a thread.
+
