@@ -9,7 +9,6 @@ public class readFile{
             {
                 System.out.print((char)i);
             }
-            R1.close(); 
     }
     catch(IOException e)
     {
