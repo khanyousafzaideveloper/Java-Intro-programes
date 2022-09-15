@@ -4,7 +4,7 @@ public class sorting99 {
         int mylist[]={32,  45, 21, 43, 56, 6, 12, 43, 21};
         
        // System.out.println(mylist.length);
-        for(int x=0; x<(mylist.length-1); x++)
+        for(int x=(mylist.length-2); x>=0; x--)
         {
             for(int j=0; j<=x; j++)
             { 
