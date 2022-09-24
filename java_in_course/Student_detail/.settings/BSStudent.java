@@ -1,5 +1,3 @@
-package .settings;
-
 public class BSStudent extends Student{
 
     int semester;

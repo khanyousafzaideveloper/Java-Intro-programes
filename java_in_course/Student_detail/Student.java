@@ -9,7 +9,7 @@ public class Student {
 		void set_roll(int r) {
 			roll = r;
 		}
-		String get_name()
+		public String get_name()
 		{
 			return name;
 		}
@@ -17,7 +17,7 @@ public class Student {
 		{
 			return roll;
 		}
-		public static void main()
+		public static void main(String[] args)
 		{
 			Student s = new Student();
 			s.set_name("Ajmal");
