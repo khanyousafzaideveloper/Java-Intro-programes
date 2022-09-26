@@ -10,7 +10,7 @@ public class Student0{
     void get_info()
     {
         System.out.println("Roll No: " + roll);
-        System.out.println("Name: " + name);
+        System.out.println("Name: " +   name);
     }
     void set_name(String n)
     {

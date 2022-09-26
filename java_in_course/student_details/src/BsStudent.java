@@ -1,13 +1,14 @@
-public class BSStudent extends Student{
+package student_details;
 
-    int semester;
+public class BsStudent extends Student{
+	int semester;
     double cgpa;
 
-    public void set_semester(int s)
+    void set_semester(int s)
     {
         semester = s;
     }
-    public void set_cgpa(double c)
+    void set_cgpa(double c)
     {
         cgpa = c;
     }
@@ -15,10 +16,8 @@ public class BSStudent extends Student{
     {
         return semester;
     }
-    public double get_cgpa()
+    double get_cgpa()
     {
         return cgpa;
     }
-    
 }
-

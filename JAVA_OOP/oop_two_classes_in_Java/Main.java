@@ -1,4 +1,12 @@
 public class Main {
-    int x= 15;
     
+    int roll;
+    public void set_roll(int r)
+    {
+        roll = r;
+    }
+    public int get_roll()
+    {
+        return roll;
+    }
 }
