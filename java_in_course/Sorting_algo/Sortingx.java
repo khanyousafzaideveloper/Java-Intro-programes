@@ -6,9 +6,9 @@ public class Sortingx{
     final int maxNum = 300;
                
     //initializing array
-    for(int i=0; i<100; i++)
+    for(int i=0; i<myArray.length-1; i++)
         {
-            myArray[i] = (int)(Math.random()*maxNum);
+            myArray[i] = (int)(Math.random()*(maxNum+1));
         }    
     Sort(myArray);
 
@@ -25,11 +25,13 @@ public class Sortingx{
                         arr[j+1] = arr[j];
                         arr[j] = temp;
                 }
+                else 
+                    break;
             }
         }
-        for(int x=0; x<100; x++)
+        for(int i=0; i<arr.length-1; i++)
         {
-            System.out.println(arr[x]);
+            System.out.println(arr[i]);
         }
     }
 }
