@@ -1,4 +1,4 @@
-public class BSStudent extends Student{
+                                                                                                                                                     public class BSStudent extends Student{
 
     int semester;
     double cgpa;
