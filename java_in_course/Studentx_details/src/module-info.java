@@ -1,0 +1,2 @@
+module Studentx_details {
+}
