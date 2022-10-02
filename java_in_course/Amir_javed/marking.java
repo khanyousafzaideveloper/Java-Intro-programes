@@ -1,8 +1,11 @@
 import java.util.*;
 
+import javax.lang.model.util.ElementScanner6;
+
 class marking {
     
     public static void main(String[] args){
+        double cgpa=0; 
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter grade of Student: A, B, C, D and F");
         char grade = sc.next().charAt(0);
@@ -13,19 +16,56 @@ class marking {
         System.out.println(grade);
         if(grade=='A')
         {
-            System.out.println(4);
+            cgpa = 4;
+            if(sign=='+'){
+                cgpa = 4.0;
+            }
+            else if(sign =='-'){
+                cgpa -= 0.3;
+            }
+            else{
+                cgpa=4;
+            }
         }
         else if(grade =='B'){
-            System.out.println(3);
+            cgpa = 3;
+            if(sign=='+'){
+                cgpa = +0.3;
+            }
+            else if(sign =='-'){
+                cgpa -= 0.3;
+            }
+            else{
+                cgpa=3;
+            }
         }
         else if(grade =='C'){
-            System.out.println(2);
+            cgpa = 2;
+            if(sign=='+'){
+                cgpa = +0.3;
+            }
+            else if(sign =='-'){
+                cgpa -= 0.3;
+            }
+            else{
+                cgpa=2;
+            }
         }
         else if(grade =='D'){
-            System.out.println(1);
+            cgpa = 1;
+            if(sign=='+'){
+                cgpa = +0.3;
+            }
+            else if(sign =='-'){
+                cgpa -= 0.3;
+            }
+            else{
+                cgpa=1;
+            }
         }
         else{
             System.out.println('0');
         }
-}  
+        System.out.println("CGPA: " + cgpa);
+    }  
 }
