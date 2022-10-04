@@ -33,14 +33,4 @@ public class Student {
 	{
 		return roll;
 	}
-	public static void main(String[] args)
-	{
-		System.out.println(noOfStudents);
-		Student s = new Student(12, "Jamal");
-		s.get_info();
-		System.out.println(noOfStudents);
-		Student s2 = new Student(32, "Akram");
-		s2.get_info();
-		System.out.println(noOfStudents);
-	}
 }
