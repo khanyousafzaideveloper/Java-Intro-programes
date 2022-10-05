@@ -14,5 +14,6 @@ public class Student_array {
     {
         Student_array s1 = new Student_array("Amjad", 32);
         s1.get_info();
+        s2.get_info();
     }
 }
