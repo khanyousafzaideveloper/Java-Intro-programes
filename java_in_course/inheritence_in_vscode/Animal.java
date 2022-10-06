@@ -6,6 +6,7 @@ public class Animal {
         this.age = age;
         this.group = group;
     }
+    
     public void get_info()
     {
         System.out.println("Age: "+age);
