@@ -1,4 +1,3 @@
-import java.io.PushbackReader;
 
 public class Bird extends Animal{
 
@@ -24,6 +23,12 @@ public class Bird extends Animal{
     public String get_color()
     {
         return color;
+    }
+    @Override
+    public void get_info()
+    {
+        System.out.println("name " + name );
+        System.out.println("color: " + color);
     }
 
 }
