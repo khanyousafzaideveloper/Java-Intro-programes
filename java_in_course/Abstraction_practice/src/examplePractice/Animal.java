@@ -31,6 +31,7 @@ public class Animal extends living_things{
 		a.setLocation("Amazon rainforest");
 		System.out.println(a.getLocation()+ " " + a.getAge() + " " + a.name);
 		a.move();
+		
 	}
 	
 	
