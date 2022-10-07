@@ -1,16 +1,14 @@
 public class TestClass{
     public static void main(String[] args)
     {
-        Invoice n = new Invoice(56.3, 2);
-        ContractEmp c =new ContractEmp(231243232, "Sajid", "Street: 2 Hayatabad" , 600, 5);
-        PermanentEmp p = new PermanentEmp(321243211, "Kamran", "street: 8, Town" , 20000);
-        //n.getPayableAmount();
-        //c.get_info_Employee();
-        //p.get_info_Employee();
-        System.out.println(p.getPayableAmount());
-        System.out.println(n.getPayableAmount());
-        System.out.println(c.getPayableAmount());
+        Payable P[] = new Payable[5]; 
+        P[0] = new Invoice(300, 2, "Register");
+        P[1] = new Invoice(2000, 1, "Bag");
+        P[2] = new ContractEmp(1938103821, "Saim", "Street 3 Tahkal", 500, 8);
+        P[3] = new ContractEmp(568954365, "Faizan", "street 2, Hayatabad", 400, 12);
+        P[4] = new PermanentEmp(387360764, "Haroon", "Street 8, Town", 50000);
 
+        
 
     }
 }
