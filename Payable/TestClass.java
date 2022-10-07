@@ -8,7 +8,8 @@ public class TestClass{
         P[3] = new ContractEmp(568954365, "Faizan", "street 2, Hayatabad", 400, 12);
         P[4] = new PermanentEmp(387360764, "Haroon", "Street 8, Town", 50000);
 
-        
-
+        for(Payable i: P){ 
+            System.out.println(i.getPayableAmount());
+        }
     }
 }

@@ -1,17 +1,39 @@
 public class Invoice implements Payable{
-    private double unitprice;
+    private int unitprice;
     private int quantity;
     private String description;
     
-    public Invoice(double unitprice,  int quantity )
+    public Invoice(int unitprice,  int quantity, String description)
     {
         this.unitprice = unitprice;
         this.quantity = quantity;
+        this.description = description;
     }
-
-    @Override
-    public void getPayableAmount() {
-        System.out.println("Total amount: " + (int)unitprice *  quantity );
-        
+    public void set_unitPrice(int unitprice)
+    {
+        this.unitprice = unitprice;
+    }
+    public int get_unitPrice()
+    {
+        return unitprice;
+    }
+    public void set_quantity(int quantity)
+    {
+        this.quantity = quantity;
+    }
+    public int get_quantity()
+    {
+        return quantity;
+    }
+    public void set_description(String description)
+    {
+        this.description = description;
+    }
+    public String get_description()
+    {
+        return description;
+    }
+    public int getPayableAmount() {
+        return (unitprice *  quantity );   
     }
 }
