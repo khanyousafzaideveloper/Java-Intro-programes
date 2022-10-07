@@ -1,4 +1,4 @@
-public class Employee {
+abstract class Employee {
     private long cnic;
     private String name;
     private String address;
@@ -33,8 +33,5 @@ public class Employee {
     {
         return address;
     }
-    public void get_info_Employee()
-    {
-        System.out.println("Name: "+name+", Cnic: "+cnic+", Address: "+address);
-    }
+    abstract void get_info_Employee();
 }
