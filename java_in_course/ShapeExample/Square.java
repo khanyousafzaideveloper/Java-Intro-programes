@@ -1,9 +1,14 @@
+import java.io.EOFException;
+
 public class Square extends Shape{
 
     private double length;
 
-    public Square(double l)
-    {
+    public Square(double l) throws Exception
+    {   if(l<0)
+        {
+            throw new Exception();
+        }
         length = l;
     }
     @Override

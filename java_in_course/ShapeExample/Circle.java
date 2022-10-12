@@ -2,8 +2,11 @@
 public class Circle extends Shape {
     private double radius;
 
-    public Circle(double radius)
-    {
+    public Circle(double radius) throws Exception
+    {   if(radius < 0)
+        {
+            throw new Exception();
+        }
         this.radius = radius;
     }
     public double get_area()
