@@ -1,4 +1,3 @@
-
 public class Circle extends Shape {
     private double radius;
 
@@ -16,6 +15,5 @@ public class Circle extends Shape {
     public double get_parameter()
     {
         return 2*Math.PI*radius;
-    }
-    
+    } 
 }

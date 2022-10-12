@@ -1,7 +1,4 @@
-import java.io.EOFException;
-
 public class Square extends Shape{
-
     private double length;
 
     public Square(double l) throws Exception
@@ -20,5 +17,4 @@ public class Square extends Shape{
     public double get_parameter() {
         return length*4;
     }
-    
 }

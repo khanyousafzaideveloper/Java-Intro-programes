@@ -1,7 +1,3 @@
-import java.util.EnumSet;
-
-import javax.xml.xpath.XPathExpressionException;
-
 public class Test {
     public static void main(String[] args)
     {   
@@ -19,5 +15,4 @@ public class Test {
             System.out.println("Enter a valid value....");
         }
     }
-
 }
