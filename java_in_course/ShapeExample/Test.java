@@ -2,7 +2,7 @@ public class Test {
     public static void main(String[] args)
     {   
         try{ 
-        Circle c1 = new Circle(4);
+        Circlex c1 = new Circlex(4);
         System.out.println(c1.get_area());
         System.out.println(c1.get_parameter());
         

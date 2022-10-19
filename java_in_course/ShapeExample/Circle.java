@@ -1,7 +1,7 @@
-public class Circle extends Shape {
+public class Circlex extends Shapes {
     private double radius;
 
-    public Circle(double radius) throws Exception
+    public Circlex(double radius) throws Exception
     {   if(radius < 0)
         {
             throw new Exception();

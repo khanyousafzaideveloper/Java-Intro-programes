@@ -3,7 +3,6 @@ public class Testclass {
     { 
         Mythread t = new Mythread();
         t.start();
-        
         System.out.println("Main");
     }
     
