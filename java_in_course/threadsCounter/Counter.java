@@ -1,7 +1,7 @@
 public class Counter{
     private int count= 0;
     
-    private void increment()
+    public void increment()
     {
         for(int i=0; i<100000; i++)
         {
