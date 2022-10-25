@@ -1,6 +1,7 @@
 public class IncrementingThread extends Thread{
-    Counter c; 
-
+    
+    Counter c  = new Counter();
+    
     public IncrementingThread(Counter c)
     {
         this.c = c;
