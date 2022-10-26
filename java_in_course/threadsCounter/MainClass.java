@@ -1,11 +1,14 @@
 public class MainClass {
     public static void main(String[] args) {
        Counter c = new Counter();
-       IncrementingThread inc = new IncrementingThread(c);
-       
-       inc.start();
+       IncrementingThread inc1 = new IncrementingThread(c);
+       DecrementingThread inc2 = new DecrementingThread(c);
+    
+       inc1.start();
        try {
-        inc.join();
+        inc1.join();
+        inc2.start();
+        inc2.join();
         } 
         catch (InterruptedException e) {
         e.printStackTrace();
