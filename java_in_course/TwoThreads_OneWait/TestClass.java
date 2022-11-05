@@ -5,7 +5,7 @@ class TestClass{
 		DecrementingThread dec1 = new DecrementingThread(c, inc1);
 
 		inc1.start();
-		dec1.start();
+		dec1.start();	
 
 	}
 }
